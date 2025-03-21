@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  mysql:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-21T16:57:44.9814144+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 38337295c40ed063fe131b5ba5f8f3efe08820a3ce82fd3e8f745d805144a9a6
+    name: mysql
+    type: application
+    urls:
+    - https://alexlehm.github.io/argocd-k8s-wordpress/mysql-0.1.0.tgz
+    version: 0.1.0
+  wordpress:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-21T16:57:44.9824717+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 29d81d78b6faa4679a0dcfc6a3946cd31707d6dbf28a72c44483928fd2a83fc9
+    name: wordpress
+    type: application
+    urls:
+    - https://alexlehm.github.io/argocd-k8s-wordpress/wordpress-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-03-21T16:57:44.9803516+01:00"
